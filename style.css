@@ -1,0 +1,38 @@
+.lesson-container ul li:hover {
+    background-color: #ffcc00; 
+}
+
+
+.lesson-container ul li:first-child {
+    border-top: 2px solid #ff5733; 
+}
+
+
+.lesson-container ul li:last-child {
+    border-bottom: 2px solid #3399ff; 
+}
+
+
+.lesson-container ul li:nth-child(odd) {
+    color: #ff0000; 
+}
+
+
+.lesson-container ul li:nth-child(even) {
+    color: #008000; 
+}
+
+
+.lesson-container ul li:first-of-type {
+    font-weight: bold; 
+}
+
+
+.lesson-container ul li:last-of-type {
+    font-style: italic; 
+}
+
+
+.lesson-container ul li:last-of-type:hover {
+    text-decoration: underline;
+}
